@@ -12,11 +12,21 @@ function App() {
 
   const addvalue = ()=>{
     // console.log("value added",Math.random());
-    if(counter<20){
-      counter = counter + 1;
-    setCounter(counter);
-    console.log(counter);
-    }
+    // if(counter<20){
+    //   counter = counter + 1;
+    // setCounter(counter);
+    // console.log(counter); 
+    // }
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
   }
 
   const removevalue = ()=>{
