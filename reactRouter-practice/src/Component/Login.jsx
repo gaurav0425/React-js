@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Contact() {
+function Login() {
   return (
     <div>
-      
+      I am login
     </div>
   )
 }
 
-export default Contact
+export default Login
